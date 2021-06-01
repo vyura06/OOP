@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="5.0" style="-fx-background-color: #ffd384;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cipherViewModel.BitViewModel">
+    <children>
+        <Label text="Bit key:" />
+        <TextField fx:id="keyTF" text="2147083648" />
+    </children>
+</VBox>

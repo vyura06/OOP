@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="root" hgap="5.0" prefWidth="300.0" vgap="5.0" xmlns="http://javafx.com/javafx/8.0.171"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.transportViewModel.MotorCycleViewModel">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+    </rowConstraints>
+    <children>
+        <Label textFill="WHITE" text="Width"/>
+        <TextField fx:id="width" GridPane.columnIndex="1"/>
+        <Label textFill="WHITE" text="Height" GridPane.rowIndex="1"/>
+        <TextField fx:id="height" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <Label textFill="WHITE" text="Depth" GridPane.rowIndex="2"/>
+        <TextField fx:id="depth" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+        <Label textFill="WHITE" text="MaxSpeed" GridPane.rowIndex="3"/>
+        <TextField fx:id="maxSpeed" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+        <Label textFill="WHITE" text="Team count" GridPane.rowIndex="4"/>
+        <TextField fx:id="teamCount" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+        <Label textFill="WHITE" text="Passages count" GridPane.rowIndex="5"/>
+        <TextField fx:id="passagesCount" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+        <Label textFill="WHITE" text="Min weight" GridPane.rowIndex="6"/>
+        <TextField fx:id="minWeight" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+        <Label textFill="WHITE" text="Max weight" GridPane.rowIndex="7"/>
+        <TextField fx:id="maxWeight" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+        <Label textFill="WHITE" text="Acceleration time to 100" GridPane.rowIndex="8"/>
+        <TextField fx:id="accelerationTimeTo100" GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+        <Label textFill="WHITE" text="Mark" GridPane.rowIndex="9"/>
+        <TextField fx:id="mark" GridPane.columnIndex="1" GridPane.rowIndex="9"/>
+    </children>
+</GridPane>

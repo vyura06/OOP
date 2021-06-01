@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="root" maxHeight="1.7976931348623157E308" spacing="2.0" style="-fx-background-color: #ffd384;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cipherViewModel.RSAViewModel">
+    <children>
+        <Label maxWidth="1.7976931348623157E308" text="Prime number p" />
+        <TextField fx:id="pTF" text="79" />
+        <Label maxWidth="1.7976931348623157E308" text="Prime number q" />
+        <TextField fx:id="qTF" text="127" />
+        <Label maxWidth="1.7976931348623157E308" text="Public exp e" />
+        <TextField fx:id="eTF" text="11" />
+    </children>
+</VBox>
